@@ -1,0 +1,178 @@
+﻿Diagnose log at 2026-07-08T13:48:03Z
+
+AppPath: C:\Program Files\Git\usr\bin\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\usr\bin\mingw64\bin\
+Version: 2.8.0+d5e8a3442d48cc5efe7014e093e44242c0bd395f
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26200)
+Reading environment variables... OK
+ Variables:
+SystemDrive=C:
+ProgramFiles(x86)=C:\Program Files (x86)
+MSYSTEM=MINGW64
+ProgramW6432=C:\Program Files
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 126 Stepping 5, GenuineIntel
+TMP=C:\Users\bhara\AppData\Local\Temp
+EFC_9896_4126798990=1
+DriverData=C:\Windows\System32\Drivers\DriverData
+Path=C:/Program Files/Git/usr/bin/mingw64/libexec/git-core;C:\Program Files\Git\usr\bin\mingw64\bin;C:\Program Files\Git\usr\bin\usr\bin;C:\Users\bhara\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\usr\bin\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\bhara\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\bhara\AppData\Local\Programs\Python\Python313\;C:\Users\bhara\AppData\Local\Microsoft\WindowsApps;C:\Users\bhara\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\bhara\AppData\Roaming\npm;C:\Users\bhara\AppData\Roaming\Composer\vendor\bin;C:\Users\bhara\AppData\Local\Programs\DDEV
+WSLENV=CAROOT/up
+PROCESSOR_REVISION=7e05
+EFC_9896_1592913036=1
+USERPROFILE=C:\Users\bhara
+LOGONSERVER=\\DELL
+TEMP=C:\Users\bhara\AppData\Local\Temp
+USERNAME=bhara
+SystemRoot=C:\WINDOWS
+GIT_EXEC_PATH=C:/Program Files/Git/usr/bin/mingw64/libexec/git-core
+PLINK_PROTOCOL=ssh
+OneDrive=C:\Users\bhara\OneDrive
+PROCESSOR_ARCHITECTURE=AMD64
+CommonProgramFiles=C:\Program Files\Common Files
+ZES_ENABLE_SYSMAN=1
+ProgramData=C:\ProgramData
+LC_CTYPE=C.UTF-8
+HOMEPATH=\Users\bhara
+COMPUTERNAME=DELL
+ALLUSERSPROFILE=C:\ProgramData
+CommonProgramW6432=C:\Program Files\Common Files
+TERM=xterm-256color
+SESSIONNAME=Console
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+HOMEDRIVE=C:
+windir=C:\WINDOWS
+GIT_TRACE2_PARENT_SID=8d495330-9383-48ba-b902-36cb2ff582ab
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
+ProgramFiles=C:\Program Files
+ComSpec=C:\WINDOWS\system32\cmd.exe
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+HOME=C:\Users\bhara
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PROMPT=$P$G
+TMPDIR=C:\Users\bhara\AppData\Local\Temp
+APPDATA=C:\Users\bhara\AppData\Roaming
+USERDOMAIN=DELL
+PROCESSOR_LEVEL=6
+LOCALAPPDATA=C:\Users\bhara\AppData\Local
+CAROOT=C:\Users\bhara\AppData\Local\mkcert
+USERDOMAIN_ROAMINGPROFILE=DELL
+COLORTERM=truecolor
+PUBLIC=C:\Users\Public
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\bhara\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\bhara\AppData\Local\Temp\12ed4734a9cc2687fbdefaaf'... OK
+Reading from temporary file 'C:\Users\bhara\AppData\Local\Temp\12ed4734a9cc2687fbdefaaf'... OK
+Deleting temporary file 'C:\Users\bhara\AppData\Local\Temp\12ed4734a9cc2687fbdefaaf'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\bhara
+UserDataDirectoryPath: C:\Users\bhara\.gcm
+GetCurrentDirectory(): C:\Users\bhara\AI-Learning
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... OK
+Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:61682/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.55.0.windows.2'
+Locating current repository...Git repository at 'C:/Users/bhara/AI-Learning/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/usr/bin/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/usr/bin/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/usr/bin/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/usr/bin/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/usr/bin/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/usr/bin/etc/gitconfig	http.sslbackend=schannel
+file:C:/Program Files/Git/usr/bin/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/usr/bin/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/usr/bin/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/usr/bin/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/usr/bin/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/usr/bin/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/usr/bin/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/bhara/.gitconfig	user.name=Bharathi K
+file:C:/Users/bhara/.gitconfig	user.email=bharathikori2000@gmail.com
+file:C:/Users/bhara/.gitconfig	credential.helper=manager
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/Bharathi0311000/AI-Learning-Journey.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\bhara\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\bhara\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
